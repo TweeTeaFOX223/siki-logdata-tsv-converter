@@ -1,0 +1,22 @@
+# Sikiのスレッドのログファイルのパスを記載してください
+# https://sikiapp.net/settings/
+# WindowsだとC:/Users/PC_User/AppData/Roaming/Siki/profile/logにあるはず
+siki_logfile_pass = "C:/Users/PC_User/AppData/Roaming/Siki/profile/log"
+
+
+# 使用するVibratoの辞書ファイルのパスを書いてください
+# https://github.com/daac-tools/vibrato?tab=readme-ov-file#basic-usage
+# https://github.com/daac-tools/vibrato/releases/tag/v0.5.0
+vibrato_dict_pass = "./config/vibrato_dict/ipadic-mecab-2_7_0/system.dic.zst"
+
+
+# ログを分析した結果を出力するディレクトリのパスを書いてください
+# main_A.py(ログの直接分析)の結果の出力先
+output_dir_direct_analysis = "./output_direct_analysis"
+# main_B_1.py(ログのTSV変換)とmain_B_2.py(TSVの分析)の出力先
+output_dir_convert_tsv = "./output_tsv"
+
+
+# main_A.py(ログの直接分析)と、main_B_2.py(TSVの分析)で、
+# 月毎の出現回数を調べたい単語をリスト形式で入力してください。
+analyze_target_words = ["日本","りんご","ゴリラ"]

@@ -1,0 +1,17 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+config/vibrato_dict/*
+!ここにVibratoの辞書を解凍して入れる.txt
+
+# デフォルト設定のoutputディレクトリ
+output_direct_analysis
+output_tsv
